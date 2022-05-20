@@ -22,7 +22,7 @@ namespace SetAssessment.Controllers
 
         [HttpGet(Name = "GetWeatherForecast")]
         [SwaggerOperation(Summary = "-- Returns the 5-day weather forcast.",
-                        Description = "Will the temperature in Fahrenheit & Celsius and a brief summary for the next 5 days.")]
+                        Description = "Will return the temperature in Fahrenheit & Celsius and a brief summary for each of the next 5 days.")]
 
         public IEnumerable<WeatherForecast> Get()
         {
